@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#AC4D39;
+</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1341</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(254, 222, 201);
+border-radius:15px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="menu_stacked_widget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>1241</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(254, 222, 201);
+selection-background-color: rgb(254, 222, 201);</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page_menu">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>661</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/on air image.png);
+border-radius:32px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>10</y>
+       <width>531</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:Brown;
+border-radius:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_admin">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>60</y>
+       <width>131</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+image: url(:/img/1946429.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>30</y>
+       <width>491</width>
+       <height>661</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:35px;
+background-color:white;
+font-family:&quot;Dosis&quot;;
+font-size:37px;
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>450</y>
+       <width>611</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:Brown;
+image: url(:/img/kisspng-social-media-computer-icons-social-network-do-not-conform-to-social-morality-5aec563338c9a1.6380052915254380032326.png);
+border-radius:35px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>250</y>
+       <width>391</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+
+border-radius:35px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_compte">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>190</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+font-size:30px;
+border:0px;
+text-align:center;
+font-family:Tahoma;
+color:green;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_admin</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_8</zorder>
+    <zorder>lineEdit_compte</zorder>
+   </widget>
+   <widget class="QWidget" name="page_emission">
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>0</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h1 align=&quot;center&quot; style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Emissions:&lt;/span&gt;&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>1231</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1231</width>
+       <height>691</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#feeadd;
+font-size:16px;</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="Emissions">
+      <attribute name="title">
+       <string>Gestion des Emissions</string>
+      </attribute>
+      <widget class="QStackedWidget" name="stackedWidget_crud">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>1201</width>
+         <height>651</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <widget class="QRadioButton" name="add_emission_type_fun">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>240</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Fun</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>30</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Add an Emission</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="add_emission_id">
+         <property name="geometry">
+          <rect>
+           <x>201</x>
+           <y>107</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Id</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="add_emission_duration_5">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>290</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>5mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLineEdit" name="add_emission_name">
+         <property name="geometry">
+          <rect>
+           <x>201</x>
+           <y>161</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Name</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="add_emission_duration_10">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>290</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>10mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QLineEdit" name="duree">
+         <property name="geometry">
+          <rect>
+           <x>201</x>
+           <y>289</y>
+           <width>71</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Duration</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_add_emission">
+         <property name="geometry">
+          <rect>
+           <x>870</x>
+           <y>350</y>
+           <width>151</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>Add</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="add_emission_type_sport">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>240</y>
+           <width>83</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Sport</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="add_emission_type_info">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>240</y>
+           <width>83</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Info</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="add_emission_duration_15">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>290</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>15mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QDateTimeEdit" name="dateTimeEdit">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>350</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:8px;
+border:1px solid;</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="type">
+         <property name="geometry">
+          <rect>
+           <x>201</x>
+           <y>235</y>
+           <width>71</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string> Type</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="date">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>350</y>
+           <width>191</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Date/Time</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>10</y>
+           <width>891</width>
+           <height>641</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="delete_emission">
+         <property name="geometry">
+          <rect>
+           <x>870</x>
+           <y>590</y>
+           <width>151</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>Delete</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>510</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Id</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>440</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Delete an Emission</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="next_crud">
+         <property name="geometry">
+          <rect>
+           <x>1130</x>
+           <y>600</y>
+           <width>51</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>---&gt;</string>
+         </property>
+        </widget>
+        <zorder>label_9</zorder>
+        <zorder>add_emission_type_fun</zorder>
+        <zorder>lineEdit</zorder>
+        <zorder>add_emission_id</zorder>
+        <zorder>add_emission_duration_5</zorder>
+        <zorder>add_emission_name</zorder>
+        <zorder>add_emission_duration_10</zorder>
+        <zorder>duree</zorder>
+        <zorder>pushButton_add_emission</zorder>
+        <zorder>add_emission_type_sport</zorder>
+        <zorder>add_emission_type_info</zorder>
+        <zorder>add_emission_duration_15</zorder>
+        <zorder>dateTimeEdit</zorder>
+        <zorder>type</zorder>
+        <zorder>date</zorder>
+        <zorder>delete_emission</zorder>
+        <zorder>lineEdit_8</zorder>
+        <zorder>lineEdit_7</zorder>
+        <zorder>next_crud</zorder>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <widget class="QLineEdit" name="lineEdit_9">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>50</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Update an Emission</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="update_duration_10">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>350</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>10mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="update_fun">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>290</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Fun</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QRadioButton" name="update_sport">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>290</y>
+           <width>83</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Sport</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>420</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:8px;
+border:1px solid;</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>1191</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_15">
+         <property name="geometry">
+          <rect>
+           <x>680</x>
+           <y>50</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Search for an Emission</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="update_id">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>120</y>
+           <width>231</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Id</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="update_info">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>290</y>
+           <width>83</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>Info</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>160</y>
+           <width>551</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_14">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>420</y>
+           <width>221</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Date/Time</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="update_duration_15">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>350</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>15mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+        <widget class="QLineEdit" name="update_emission_name">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>200</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Emission Name</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="update_duration_5">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>350</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>5mn</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>350</y>
+           <width>71</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Duration</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_17">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>280</y>
+           <width>71</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string> Type</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_update">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>510</y>
+           <width>151</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>Update</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="next_crud_2">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>580</y>
+           <width>51</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;---</string>
+         </property>
+        </widget>
+        <widget class="QTableView" name="tableView_emission">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>90</y>
+           <width>491</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:20px;
+border:1px solid;
+</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="refresh">
+         <property name="geometry">
+          <rect>
+           <x>1070</x>
+           <y>580</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>refresh</string>
+         </property>
+        </widget>
+        <zorder>label_11</zorder>
+        <zorder>label_12</zorder>
+        <zorder>lineEdit_9</zorder>
+        <zorder>update_duration_10</zorder>
+        <zorder>update_fun</zorder>
+        <zorder>update_sport</zorder>
+        <zorder>dateTimeEdit_2</zorder>
+        <zorder>lineEdit_15</zorder>
+        <zorder>update_id</zorder>
+        <zorder>update_info</zorder>
+        <zorder>lineEdit_14</zorder>
+        <zorder>update_duration_15</zorder>
+        <zorder>update_emission_name</zorder>
+        <zorder>update_duration_5</zorder>
+        <zorder>lineEdit_13</zorder>
+        <zorder>lineEdit_17</zorder>
+        <zorder>pushButton_update</zorder>
+        <zorder>next_crud_2</zorder>
+        <zorder>tableView_emission</zorder>
+        <zorder>refresh</zorder>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="Statistiques">
+      <attribute name="title">
+       <string>Statistiques</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_invite">
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>-10</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h1 align=&quot;center&quot; style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:xx-large; font-weight:600;&quot;&gt;Invites&lt;/span&gt;&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>1231</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#feeadd;
+font-size:16px;</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>gestion des Invites</string>
+      </attribute>
+      <widget class="QStackedWidget" name="stackedWidget_guest">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>9</y>
+         <width>1211</width>
+         <height>621</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page_5">
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>10</y>
+           <width>861</width>
+           <height>591</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_add_a_a_guest_2">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>40</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Add a Guest</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_guest_id_2">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>140</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest Id</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_guest_name_2">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>230</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest Name</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_guest_last_name_2">
+         <property name="geometry">
+          <rect>
+           <x>470</x>
+           <y>290</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest last Name</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_interview_duration_2">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>370</y>
+           <width>161</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>InterviewDuration</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_5mm_i_2">
+         <property name="geometry">
+          <rect>
+           <x>521</x>
+           <y>373</y>
+           <width>55</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>5mn</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_10mm_i_2">
+         <property name="geometry">
+          <rect>
+           <x>629</x>
+           <y>373</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>10mn</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_deleteaguest">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>440</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Delete a Guest</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_guest_id_3">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>520</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest Id</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_add_guest">
+         <property name="geometry">
+          <rect>
+           <x>854</x>
+           <y>252</y>
+           <width>111</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>Add</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_delete_a_guest">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>512</y>
+           <width>111</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>Delete </string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_next_crude_guest">
+         <property name="geometry">
+          <rect>
+           <x>1104</x>
+           <y>572</y>
+           <width>71</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color:white;
+border-radius:15px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>---&gt;</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_15mm_i_2">
+         <property name="geometry">
+          <rect>
+           <x>738</x>
+           <y>373</y>
+           <width>71</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>15mn</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_6">
+        <widget class="QLabel" name="label_back_invites">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>0</y>
+           <width>1171</width>
+           <height>621</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="line_back_invites">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string> Update Guest Informations</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_ID_invite">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>90</y>
+           <width>231</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest Id</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>140</y>
+           <width>551</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:15px;
+border:0.5px solid;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_geusr_name">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>190</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest Name</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_dure_interview">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>260</y>
+           <width>141</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>interview duration</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_5mmi">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>280</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>5mn</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_10mmi">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>280</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>10mn</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioButton_15mmi">
+         <property name="geometry">
+          <rect>
+           <x>490</x>
+           <y>280</y>
+           <width>71</width>
+           <height>18</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+</string>
+         </property>
+         <property name="text">
+          <string>15mn</string>
+         </property>
+        </widget>
+        <widget class="QListView" name="listView_search_guest">
+         <property name="geometry">
+          <rect>
+           <x>620</x>
+           <y>110</y>
+           <width>531</width>
+           <height>471</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+background-color:white;
+border:1px solid;
+</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_search_invite">
+         <property name="geometry">
+          <rect>
+           <x>650</x>
+           <y>30</y>
+           <width>441</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:1px;
+background-color:white;
+border-bottom:1px solid;
+text-align:center;
+
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Search for a Guest</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_previous_crud_guest">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>580</y>
+           <width>91</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{background-color:white;
+border-radius:12px;
+border-color:black;
+border:1px solid;
+}
+QPushButton:hover
+{
+background-color:lightgray;
+}</string>
+         </property>
+         <property name="text">
+          <string>&lt;----</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_last_name">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>290</y>
+           <width>281</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+border-radius:1px;
+border-bottom:1px double;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>Guest last Name</string>
+         </property>
+        </widget>
+        <zorder>lineEdit_last_name</zorder>
+        <zorder>label_back_invites</zorder>
+        <zorder>label_16</zorder>
+        <zorder>line_back_invites</zorder>
+        <zorder>lineEdit_ID_invite</zorder>
+        <zorder>lineEdit_geusr_name</zorder>
+        <zorder>lineEdit_dure_interview</zorder>
+        <zorder>radioButton_5mmi</zorder>
+        <zorder>radioButton_10mmi</zorder>
+        <zorder>radioButton_15mmi</zorder>
+        <zorder>listView_search_guest</zorder>
+        <zorder>lineEdit_search_invite</zorder>
+        <zorder>pushButton_previous_crud_guest</zorder>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Statistiques</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="emission_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+image: url(:/img/podcast.png);
+border-radius:5px;
+background-color:DarkRed;
+}
+QPushButton:hover
+{
+background-color:#B22222;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>71</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color:DarkRed;
+border-radius:20px;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_invite">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius:10px;
+background-color:DarkRed;
+image: url(:/img/guests.png);
+}
+
+QPushButton:hover
+{
+background-color:#B22222;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>menu_stacked_widget</zorder>
+  <zorder>label</zorder>
+  <zorder>emission_button</zorder>
+  <zorder>pushButton_invite</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_4"/>
+ </buttongroups>
+</ui>
